@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/:slug((?!404).+)", "destination": "/api/link/?slug=:slug" },
+    { "source": "/", "destination": "/api/link" }
+  ]
+}
