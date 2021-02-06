@@ -25,9 +25,11 @@ If you want to redirect links from a sub-directory instead of a root domain, for
 
 #### Host on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable&env=AIRTABLE_KEY,BASE_ID,TABLE_NAME,NO_VISIT_COUNT,ROOT_REDIRECT_URL,USE_ROOT_AS_FALLBACK&envDescription=Environment%20variables&envLink=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable%23environment-variables&project-name=my-linktable&repo-name=linktable)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable&env=AIRTABLE_KEY,BASE_ID,TABLE_NAME,ROOT_REDIRECT_URL&envDescription=Environment%20variables&envLink=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable%23environment-variables&project-name=my-linktable&repo-name=linktable)
 
 ##### Environment vairables
+
+Make sure to set the following variables. To enable the optional vars, such as NO_VISIT_COUNT, deploy and then navigate to `project -> settings -> Environment Variables` in vercel.
 
 + `AIRTABLE_KEY` - from your [account page](https://airtable.com/account)
 + `BASE_ID` - you can find this from the [API page](https://airtable.com/api) for your base
