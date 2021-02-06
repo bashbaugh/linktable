@@ -25,7 +25,16 @@ If you want to redirect links from a sub-directory instead of a root domain, for
 
 #### Host on Vercel
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable&env=AIRTABLE_KEY,BASE_ID,TABLE_NAME,NO_VISIT_COUNT,ROOT_REDIRECT_URL,USE_ROOT_AS_FALLBACK&envDescription=Environment%20variables&envLink=https%3A%2F%2Fgithub.com%2Fscitronboy%2Flinktable%23environment-variables&project-name=my-linktable&repo-name=linktable)
 
+##### Environment vairables
+
++ `AIRTABLE_KEY` - from your [account page](https://airtable.com/account)
++ `BASE_ID` - you can find this from the [API page](https://airtable.com/api) for your base
++ `TABLE_NAME` - the name of the table your links are stored in (Links for example)
++ `NO_VISIT_COUNT` - leave this empty to count visitors, fill it with anything to disable counting visitors
++ `ROOT_REDIRECT_URL` - where to redirect the root of your domain to (or whatever you put in vercel.json)
++ `USE_ROOT_AS_FALLBACK` - If this is set, unknown URL slugs will redirect to the ROOT_REDIRECT_URL instead of to the 404 page (leave blank to disable).
 
 ### Devlopment
 
